@@ -1,0 +1,281 @@
+/* line 3, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+body {
+  background-color: #ECEEF1;
+  font-family: 'AvenirNext',Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* line 10, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* line 15, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+form {
+  border: 1px solid #c6c7cc;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 380px;
+  height: 684.4px;
+  margin: auto;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  background-color: white;
+}
+
+/* line 32, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.partenaire {
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e2e1e1;
+}
+
+/* line 39, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.turbotax {
+  background-image: url("https://accounts.intuit.com/images/v2/ecosystem_logos_new.png");
+  width: 101px;
+  height: 23px;
+  background-position: 0px 27px;
+  margin-right: 5px;
+}
+
+/* line 49, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.quickbooks {
+  background-image: url("https://accounts.intuit.com/images/v2/ecosystem_logos_new.png");
+  width: 126px;
+  height: 23px;
+  background-position: 343px 27px;
+  margin-right: 5px;
+}
+
+/* line 58, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.mint {
+  background-image: url("https://accounts.intuit.com/images/v2/ecosystem_logos_new.png");
+  width: 64px;
+  height: 23px;
+  background-position: 204px 27px;
+}
+
+/* line 66, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+/* line 72, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+input {
+  border-radius: 3px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  height: 34px;
+  width: 320px;
+}
+
+/* line 83, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.account-info label {
+  color: #4c4c4c;
+  display: block;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+/* line 89, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.account-info input {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #636466;
+  margin-top: 6px;
+  padding: 10px;
+  width: 100%;
+}
+
+/* line 100, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.account-action {
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+/* line 105, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.account-action .btn {
+  background: #0077c5;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  float: left;
+  padding: 8px 16px;
+  width: 318px;
+  height: 44px;
+  font-size: 15.75px;
+}
+
+/* line 117, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.account-action label {
+  color: #7c7c80;
+  float: left;
+  margin: 10px 0 0 20px;
+}
+
+/* line 124, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.intro {
+  color: #4c4c4c;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* line 132, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.intro2 {
+  color: #4c4c4c;
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* line 140, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+span {
+  color: #4c4c4c;
+  font-size: 10px;
+}
+
+/* line 147, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.intro2 a {
+  color: #0077c5;
+  text-decoration: none;
+}
+
+/* line 153, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 158, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: #505050;
+  padding-right: 25px;
+}
+
+/* line 168, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+header p {
+  margin: 0px 10px 0px 0px;
+  font-size: 12px;
+}
+
+/* line 173, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.top a {
+  color: #0077c5;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/* line 180, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.btn-top {
+  background: #0077c5;
+  border: 0;
+  font-size: 13px;
+  color: #fff;
+  cursor: pointer;
+  width: 104.8px;
+  height: 34px;
+  padding: 0px 20px 0px 20px;
+}
+
+/* line 195, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.formulaire_bottom {
+  color: #bbbbbb;
+  font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+}
+
+/* line 208, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.formulaire_bottom a {
+  color: #0077c5;
+  text-decoration: none;
+}
+
+/* line 214, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 12px;
+}
+
+/* line 222, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+footer {
+  font-size: 11px;
+  color: #505050;
+  text-align: center;
+}
+
+/* line 230, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.color {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 237, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+li {
+  margin-left: 10px;
+}
+
+/* line 244, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.color a {
+  font-size: 11.5px;
+  color: #505050;
+  text-decoration: none;
+}
+
+/* line 252, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.color a:hover {
+  text-decoration: underline;
+}
+
+/* line 257, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.logo {
+  margin: auto;
+  margin-bottom: 20px;
+  width: 118px;
+  height: 35px;
+  background-image: url("https://accounts.intuit.com/images/v2/ecosystem_logos_new.png");
+}
+
+/* line 266, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.copyright {
+  margin: auto;
+}
+
+/* line 271, /home/ferdeddo/S7_HTML_CSS/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.logo2 {
+  width: 81px;
+  height: 35px;
+  background-image: url("https://accounts.intuit.com/images/v2/intuit_grey.svg");
+  margin: auto;
+  margin-top: 40px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
