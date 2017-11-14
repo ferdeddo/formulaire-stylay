@@ -1,0 +1,281 @@
+
+
+body 
+{
+	background-color: #ECEEF1;
+  font-family: 'AvenirNext',Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+form {
+  border: 1px solid #c6c7cc;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 380px;
+  height: 684.4px;
+  margin:auto;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  
+
+  background-color: white;
+
+}
+
+.partenaire
+{
+	display: flex;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e2e1e1 ;
+}
+
+.turbotax
+{
+	background-image: url("https://accounts.intuit.com/images/v2/ecosystem_logos_new.png");
+    width: 101px;
+    height: 23px;
+    background-position: 0px 27px;
+    margin-right: 5px;
+}
+
+
+.quickbooks
+{
+	background-image: url("https://accounts.intuit.com/images/v2/ecosystem_logos_new.png");
+    width: 126px;
+    height: 23px;
+    background-position: 343px 27px;
+    margin-right: 5px;
+}
+
+.mint
+{
+	background-image: url("https://accounts.intuit.com/images/v2/ecosystem_logos_new.png");
+    width: 64px;
+    height: 23px;
+    background-position: 204px 27px;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+input {
+  border-radius: 3px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  height: 34px;
+  width: 320px;
+
+}
+.account-info {
+  
+}
+.account-info label {
+  color: #4c4c4c;
+  display: block;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.account-info input {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;
+  margin-top: 6px;
+  padding: 10px;
+  
+  width: 100%;
+
+}
+.account-action {
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.account-action .btn {
+  background: rgb(0, 119, 197);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  float: left;
+  padding: 8px 16px;
+  width: 318px;
+  height: 44px;
+  font-size: 15.75px;
+  
+}
+.account-action label {
+  color: #7c7c80;
+  
+  float: left;
+  margin: 10px 0 0 20px;
+}
+
+.intro
+{
+	color: #4c4c4c;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.intro2
+{
+	color: #4c4c4c;
+	font-size: 14px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+span
+{
+	color: #4c4c4c;
+	font-size: 10px;
+	
+}
+
+.intro2 a
+{
+	color: #0077c5;
+	text-decoration: none;
+}
+
+a:hover
+{
+   text-decoration: underline;
+   
+}
+header
+{
+
+	  display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #505050;
+    padding-right: 25px;
+   	
+}
+header p {
+    margin: 0px 10px 0px 0px; 
+    font-size: 12px; 
+}
+
+.top a
+{
+	color: #0077c5;
+	text-decoration: none;
+  font-size: 12px;
+}
+
+.btn-top
+{
+  background: rgb(0, 119, 197);
+  border: 0;
+  font-size: 13px;
+  color: #fff;
+  cursor: pointer;
+  width: 104.8px;
+  height: 34px;
+  padding: 0px 20px 0px 20px;
+
+  
+  
+}
+
+.formulaire_bottom 
+{
+	
+    color: rgb(187, 187, 187);
+    font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    
+    text-align: center;
+   
+
+}
+
+.formulaire_bottom a
+{
+	color: #0077c5;
+	text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    
+    padding: 0;
+    font-size: 12px;
+    
+}
+
+footer
+{
+	font-size: 11px;
+	color: #505050;
+	text-align:center;
+	
+}
+
+.color 
+{
+	display: flex;
+	justify-content: center;
+	
+}
+
+li
+{
+	margin-left: 10px;
+}
+
+
+
+.color a
+{
+	
+    font-size: 11.5px;
+    color: #505050;
+	text-decoration: none;
+
+}
+.color a:hover
+{
+	text-decoration: underline;
+}
+
+.logo
+{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 118px;
+    height: 35px;
+    background-image: url("https://accounts.intuit.com/images/v2/ecosystem_logos_new.png");
+}
+
+.copyright 
+{
+	
+    margin: auto;
+}
+.logo2
+{
+	width:  81px;
+    height: 35px;
+	background-image: url("https://accounts.intuit.com/images/v2/intuit_grey.svg");
+    margin: auto;
+    margin-top: 40px;
+}
+
+
+
